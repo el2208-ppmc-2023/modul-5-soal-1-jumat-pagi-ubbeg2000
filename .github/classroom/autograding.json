@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "100\r\n2\r\n10\r\n30",
+      "output": "Hasil Simulasi:\r\nSaat n=10; v=8 m/s; a=77 m/s2\r\nSaat n=30; v=22 m/s; a=65 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "20\r\n3\r\n10\r\n20\r\n30",
+      "output": "Hasil Simulasi:\r\nSaat n=10; v=2 m/s; a=15 m/s2\r\nSaat n=20; v=3 m/s; a=14 m/s2\r\nSaat n=30; v=4 m/s; a=13 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "50\r\n5\r\n20\r\n25\r\n40\r\n45",
+      "output": "Hasil Simulasi:\r\nSaat n=5; v=2 m/s; a=40 m/s2\r\nSaat n=20; v=8 m/s; a=35 m/s2\r\nSaat n=25; v=9 m/s; a=34 m/s2\r\nSaat n=40; v=14 m/s; a=30 m/s2\r\nSaat n=45; v=16 m/s; a=29 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "120\r\n2\r\n10\r\n100",
+      "output": "Hasil Simulasi:\r\nSaat n=10; v=10 m/s; a=92 m/s2\r\nSaat n=100; v=68 m/s; a=45 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "200\r\n1\r\n50",
+      "output": "Hasil Simulasi:\r\nSaat n=50; v=68 m/s; a=111 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "1000\r\n4\r\n200\r\n400\r\n600\r\n800",
+      "output": "Hasil Simulasi:\r\nSaat n=200; v=825 m/s; a=167 m/s2\r\nSaat n=400; v=991 m/s; a=34 m/s2\r\nSaat n=600; v=1024 m/s; a=7 m/s2\r\nSaat n=800; v=1031 m/s; a=1 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "2000\r\n3\r\n1000\r\n2000\r\n2500",
+      "output": "Hasil Simulasi:\r\nSaat n=1000; v=2064 m/s; a=1 m/s2\r\nSaat n=2000; v=2065 m/s; a=0 m/s2\r\nSaat n=2500; v=2065 m/s; a=0 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "300\r\n5\r\n10\r\n50\r\n100\r\n150\r\n200",
+      "output": "Hasil Simulasi:\r\nSaat n=10; v=24 m/s; a=231 m/s2\r\nSaat n=50; v=102 m/s; a=167 m/s2\r\nSaat n=100; v=171 m/s; a=112 m/s2\r\nSaat n=150; v=217 m/s; a=75 m/s2\r\nSaat n=200; v=248 m/s; a=50 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "255\r\n2\r\n10\r\n100",
+      "output": "Hasil Simulasi:\r\nSaat n=10; v=20 m/s; a=196 m/s2\r\nSaat n=100; v=145 m/s; a=95 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "114\r\n1\r\n3",
+      "output": "Hasil Simulasi:\r\nSaat n=3; v=3 m/s; a=93 m/s2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
