@@ -24,7 +24,7 @@
       "name": "3",
       "setup": "",
       "run": "./main",
-      "input": "50\r\n5\r\n20\r\n25\r\n40\r\n45",
+      "input": "50\r\n5\r\n5\r\n20\r\n25\r\n40\r\n45",
       "output": "Hasil Simulasi:\r\nSaat n=5; v=2 m/s; a=40 m/s2\r\nSaat n=20; v=8 m/s; a=35 m/s2\r\nSaat n=25; v=9 m/s; a=34 m/s2\r\nSaat n=40; v=14 m/s; a=30 m/s2\r\nSaat n=45; v=16 m/s; a=29 m/s2",
       "comparison": "included",
       "timeout": 1,
